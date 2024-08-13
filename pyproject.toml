@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Nehil Jain <2761999+nehiljain@users.noreply.github.com>"]
 readme = "README.md"
-package-mode = false
+
 
 [tool.poetry.dependencies]
 python = "3.11.9"
@@ -12,10 +12,6 @@ aider-chat = "*"
 pydantic = "*"
 openai = "*"
 instructor = "*"
-
-[tool.poetry.scripts]
-run-notebook = "scripts.run_notebook:main"
-
 
 
 [build-system]
