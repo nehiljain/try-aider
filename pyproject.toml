@@ -15,6 +15,9 @@ instructor = "*"
 [tool.poetry.scripts]
 run-notebook = "sh -c 'jupyter nbconvert --to notebook --execute app.ipynb --inplace'"
 
+[tool.poetry]
+package-mode = false
+
 
 [build-system]
 requires = ["poetry-core"]
