@@ -4,6 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Nehil Jain <2761999+nehiljain@users.noreply.github.com>"]
 readme = "README.md"
+package-mode = true
 
 [tool.poetry.dependencies]
 python = "3.11.9"
@@ -13,10 +14,8 @@ openai = "*"
 instructor = "*"
 
 [tool.poetry.scripts]
-run-notebook = "sh -c 'jupyter nbconvert --to notebook --execute app.ipynb --inplace'"
+run-notebook = "jupyter nbconvert --to notebook --execute app.ipynb --inplace"
 
-[tool.poetry]
-package-mode = false
 
 
 [build-system]
