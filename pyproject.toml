@@ -7,10 +7,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "3.11.9"
-aider-chat = "^0.50.0"
-pydantic = "^1.10.2"
-openai = "^0.27.0"
-instructor = "^0.1.0"
+aider-chat = "*"
+pydantic = "*"
+openai = "*"
+instructor = "*"
 
 
 [build-system]
