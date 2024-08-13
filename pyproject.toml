@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "arallon-ai"
+version = "0.1.0"
+description = ""
+authors = ["Nehil Jain <2761999+nehiljain@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.9"
+aider-chat = "^0.50.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
